@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Renaissance Calendar Widget</title>
+  <link rel="preconnect" href="https://googleapis.com">
+  <link rel="preconnect" href="https://gstatic.com" crossorigin>
+  <link href="https://googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="responsive-wrapper">
+    <div class="calendar-card">
+      <div class="corner top-left">✦</div>
+      <div class="corner top-right">✦</div>
+      <div class="corner bottom-left">✦</div>
+      <div class="corner bottom-right">✦</div>
+      
+      <div class="card-content">
+        <!-- Header displaying Month and Year -->
+        <h1 id="calendar-header">MONTH YEAR</h1>
+        <div class="ornament">❖ ────── ❖</div>
+        
+        <!-- Seven-column grid layout for weekdays -->
+        <div class="weekdays-grid">
+          <div>SU</div><div>MO</div><div>TU</div><div>WE</div><div>TH</div><div>FR</div><div>SA</div>
+        </div>
+        
+        <!-- Target container where JavaScript generates day squares -->
+        <div id="days-container" class="days-grid"></div>
+        
+        <div class="ornament-small">❖</div>
+        <p id="renaissance-motto">“Time flies, but the art remains.”</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
