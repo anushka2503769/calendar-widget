@@ -1,4 +1,4 @@
-# Renaissance Aesthetic Calendar Widget for Notion
+# Aesthetic Calendar Widget for Notion
 
 A lightweight, responsive calendar widget designed for dark-themed, earthy Notion workspaces. This widget automatically maps the current date metrics, frames them within an antique display structure, and applies a rich High Renaissance velvet burgundy color profile.
 
